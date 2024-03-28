@@ -1,6 +1,3 @@
-# PLExtension
-"盘络上传" is a free upload extension that supports LanKong, Simple Image Bed, Chevereto, Alibaba Cloud OSS, AWS S3, GitHub, and other programs for file uploads.盘络上传，是一款免费的上传扩展程序提供兰空图床,简单图床,chevereto,阿里云oss,AWS S3,GitHub等程序的文件上传
-
 <p align="center">
   <img alt="logo" src="https://cdn-us.imgs.moe/2023/10/11/yyl_256_IOGn1IDwRN.png" height="200" />
   <img alt="logo" src="https://cdn-us.imgs.moe/2023/10/11/hyl_256_W1cRB1Mmr5.png" height="200" />
@@ -166,4 +163,5 @@ V1.1.4后增加了Chromium,Gecko内核识别
 `window.addEventListener('message', function (event) {if (event.data.type === 'ExtensionResponse') {console.log(event.data.data);}});`
 
 接收判断有没有安装盘络上传,并做出规避;
+
 
